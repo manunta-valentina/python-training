@@ -14,9 +14,11 @@ for x in fruits: #il ciclo for viene utilizzato per l'iterazione sulla lista
   non fragola
  
  
-
 fruits = ["mela", "banana", "fragola"]  #crea una lista
 for x in fruits:  #il ciclo for viene utilizzato per l'iterazione sulla lista
   if x == "banana":  # pongo la x uguale a una variabile
     continue   #utilizzando continue possiamo interrompere il ciclo e continuare con la successiva, quindi stamperà mela e fragola(salta banana)
   print(x)  # stampa le variabili della lista
+
+  for x in range(6): #La funzione range() restituisce una sequenza di numeri, a partire da 0 per impostazione predefinita, e incrementa di 1
+  print(x) # stampa le 6 variabili, da 0 a 5
